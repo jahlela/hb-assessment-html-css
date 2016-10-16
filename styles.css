@@ -1,0 +1,17 @@
+/* Your CSS goes here */
+
+#intro_text {
+    border: 5px solid teal;
+    display: inline;
+    padding: 5px;
+    bottom: 15px;
+}
+
+input,
+button.btn.btn-default {
+    background-color: yellow;
+}
+
+#last_name {
+    font-weight: 700;
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <title>Skills-HTML-CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+
+    <h2>Job Application</h2>
+
+    <p id="intro_text">To start your application, please complete the following:</p>
+
+    <form id="application_form" action="/application" method="POST">
+      <p><label for="first_name">First name: </label><input type="text" name="first_name"></p>
+      <p><label for="last_name">Last name: </label><input  id="last_name" type="text" name="last_name"></p>
+      <p><label for="desired_salary">Salary Num: </label><input type="text" pattern="[0-9]*" name="salary"></p>
+
+      <br>
+      <label for="job">Job you are applying for: </label>
+        <select name="select">
+          <option value="software_engineer">Software Engineer</option>
+          <option value="qa_engineer">QA Engineer</option>
+          <option value="product_manager">Product Manager</option>
+        </select><br><br>
+
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+  </div>
+</body>
+</html>
